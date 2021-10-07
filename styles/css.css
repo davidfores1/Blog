@@ -13,7 +13,7 @@ h1 {
     font-size: 15pt;
     color: #20bcd5;
     text-align: center;
-    padding: 18px 0 18px 0;
+    padding: 30px 0 18px 0;
     margin: 0 0 10px 0;
 }
 h1 span {
@@ -23,9 +23,10 @@ h1 span {
 p {
     padding: 0;
     margin: 0;
+    text-align: justify
 }
 .img-circle {
-    border: 3px solid white;
+    border: 5px solid white;
     border-radius: 50%;
 }
 .section {
@@ -35,27 +36,32 @@ p {
     border-radius: 10px;
 }
 #header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+    background-image: url("../img/banner.jpg");
     background-size: cover;
 }
 #header img {
     display: block;
     width: 100px;
-    height: 100px;
+    height: 120px;
     margin: auto;
 }
 #header p {
     font-size: 25pt;
-    color: #3b464c;
+    color: whitesmoke;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
     text-align: center;
 }
+
+#descripcion{
+    padding: 10px 80px 20px 80px;
+}
 .quote {
     font-size: 12pt;
     text-align: right;
     margin-top: 10px;
+    padding-right: 70px;
 }
 table {
     width: 100%;
