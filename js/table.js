@@ -16,15 +16,19 @@ class Table {
     }
     asignarEvento() {
         for (var i = 0; i < this.cantidadTD; i++) {
-            this.td[i].addEventListener("click", this.recorrerTD);
+            this.td[i].addEventListener("click", this.seleccionaraTD);
         }
     }
 
-    recorrerTD(e) {
-    var texto = "";
-    var td = e.target;
-    texto += "Has elegido" + td.textContent;
-    console.log(texto);
+    seleccionaraTD(e) {
+        var texto = "";
+        var td = e.target;
+        texto += "Has elegido" + td.textContent;
+        var actividad = prompt("Escriba Actividad")
+        if (actividad != "" && actividad != null) {
+            
+            td.innerHTML = actividad
+        }
     }
 
 }
